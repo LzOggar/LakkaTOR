@@ -6,13 +6,16 @@ For the moment, the script only allows zip files. All games must be compressed t
 ## Usage
 ```
 ./LakkaTOR <cmd>
--h, --help : use to get help.
---setup : use to setup the system.
---scan : use to automatically add games to playlists.
+ -h, --help : use to get help.
+	--setup : use to setup the system.
+	--scan : use to automatically add games to playlists.
 
-[WARNING] For the moment, the script only allows zip files. All games must be compressed to zip format and downloaded to the corresponding folder (e.g : download Super Mario World.zip from https://romsmania.cc/roms/super-nintendo and save the file into /storage/roms/downloads/Nintendo - Super Nintendo Entertainment System/ folder). For more informations, follow this urls :
- - http://www/.lakka.tv/
- - http://www.lakka.tv/doc/home
+	[WARNING] For the moment, the script only allows zip files. All games must be compressed to zip format
+	and downloaded to the corresponding folder (e.g : download Super Mario World.zip from https://romsmania.cc/roms/super-nintendo
+	and save the file into /storage/roms/downloads/Nintendo - Super Nintendo Entertainment System/ folder).
+	For more informations, follow these urls :
+	 - http://www/.lakka.tv/
+	 - http://www.lakka.tv/doc/home
 ```
 
 ### Installing
