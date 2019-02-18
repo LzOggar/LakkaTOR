@@ -10,7 +10,7 @@ For the moment, the script only allows zip files. All games must be compressed t
 --setup : use to setup the system.
 --scan : use to automatically add games to playlists.
 
-[IMPORTANT] this script take cares of only zip file. For more informations, follow this urls :
+[WARNING] For the moment, the script only allows zip files. All games must be compressed to zip format and downloaded to the corresponding folder (e.g : download Super Mario World.zip from https://romsmania.cc/roms/super-nintendo and save the file into /storage/roms/downloads/Nintendo - Super Nintendo Entertainment System/ folder). For more informations, follow this urls :
  - http://www/.lakka.tv/
  - http://www.lakka.tv/doc/home
 ```
