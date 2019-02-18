@@ -1,5 +1,7 @@
 # LakkaTOR
-LakkaTOR is a command line tool to setup Lakka default architecture (i.e /storage/thumbnails, /storage/roms/downloads & /storage/playlists) and automatically import game into playlists.
+LakkaTOR is a command line tool to setup Lakka default architecture (i.e /storage/thumbnails, /storage/roms/downloads & /storage/playlists) and automatically import games into playlists.
+
+For the moment, the script only allows zip files. All games must be compressed to zip format and downloaded to the corresponding folder (e.g : download Super Mario World.zip from https://romsmania.cc/roms/super-nintendo and save the file into /storage/roms/downloads/Nintendo - Super Nintendo Entertainment System/ folder).
 
 ## Usage
 ```
@@ -15,7 +17,7 @@ LakkaTOR is a command line tool to setup Lakka default architecture (i.e /storag
 
 ### Installing
 
-You have to clone the repo. in your computer with :
+You have to clone the repo. into your computer with :
 
 ```
 git clone https://github.com/LzOggar/LakkaTOR
@@ -50,4 +52,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 **LzOggar** - CyberSecurity student
 
 ## Contributing
-You can pull request the project or suggest to me some increasement.
+Make pull request or suggest me improvements.
