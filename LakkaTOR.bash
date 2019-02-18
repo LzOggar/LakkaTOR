@@ -109,19 +109,19 @@ function addGamesToPlaylists
         	playlist_name="$folder.lpl"
         	for file in $files
        		do
-            	file="${file//_/ }"
-            	playlist_path="$PLAYLISTS_PATH$folder.lpl"
-            	zip_path="$ROMS_PATH$folder/$file"
-            	count=$(grep -c "$file" "$playlist_path")
-            	if [ $count -lt 1 ]
-            	then
-                   		echo "[-] add $file to $playlist_path"
-                    	rom=$(unzip -Z -1 "$zip_path")
-                    	{ echo "$zip_path#$rom"; echo "${file%.zip}"; echo "DETECT"; echo "DETECT"; echo "DETECT"; echo "$playlist_name"; } >> "$playlist_path"
-            	        echo "[+] add $file in $playlist_path succeeded"
-    	        else
-                        echo "[i] $file already exist in $playlist_path"
-                fi
+			file="${file//_/ }"
+			playlist_path="$PLAYLISTS_PATH$folder.lpl"
+			zip_path="$ROMS_PATH$folder/$file"
+			count=$(grep -c "$file" "$playlist_path")
+			if [ $count -lt 1 ]
+			then
+					echo "[-] add $file to $playlist_path"
+				rom=$(unzip -Z -1 "$zip_path")
+				{ echo "$zip_path#$rom"; echo "${file%.zip}"; echo "DETECT"; echo "DETECT"; echo "DETECT"; echo "$playlist_name"; } >> "$playlist_path"
+				echo "[+] add $file in $playlist_path succeeded"
+			else
+				echo "[i] $file already exist in $playlist_path"
+			fi
 	        done
 	done
 }
