@@ -115,7 +115,7 @@ function addGamesToPlaylists
 			count=$(grep -c "$file" "$playlist_path")
 			if [ $count -lt 1 ]
 			then
-					echo "[-] add $file to $playlist_path"
+				echo "[-] add $file to $playlist_path"
 				rom=$(unzip -Z -1 "$zip_path")
 				{ echo "$zip_path#$rom"; echo "${file%.zip}"; echo "DETECT"; echo "DETECT"; echo "DETECT"; echo "$playlist_name"; } >> "$playlist_path"
 				echo "[+] add $file in $playlist_path succeeded"
