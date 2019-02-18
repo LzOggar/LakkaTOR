@@ -16,7 +16,7 @@ function usage
 	echo -e '\t-h, --help : use to get help.'
 	echo -e '\t--setup : use to setup the system.'
 	echo -e '\t--scan : use to automatically add games to playlists.\n'
-	echo -e '\t[IMPORTANT] this script take cares of only zip file. For more informations, follow this urls :'
+	echo -e '\t[WARNING] For the moment, the script only allows zip files. All games must be compressed to zip format and downloaded to the corresponding folder (e.g : download Super Mario World.zip from https://romsmania.cc/roms/super-nintendo and save the file into /storage/roms/downloads/Nintendo - Super Nintendo Entertainment System/ folder). For more informations, follow this urls :'
 	echo -e "\t - $URL_LAKKA"
 	echo -e "\t - $URL_LAKKA_DOC"
 }
