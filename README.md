@@ -1,9 +1,17 @@
 # LakkaTOR
-LakkaTOR is a command line tool to setup Lakka default architecture (aka. /storage/thumbnails, /storage/roms/downloads & /storage/playlists) and automatically import game into playlist.
+LakkaTOR is a command line tool to setup Lakka default architecture (aka. /storage/thumbnails, /storage/roms/downloads & /storage/playlists) and automatically import game into playlists.
 
 ## Usage
+```
+./LakkaTOR <cmd>
+-h, --help : use to get help.
+--setup : use to setup the system.
+--scan : use to automatically add games to playlists.
 
-
+[IMPORTANT] this script take cares of only zip file. For more informations, follow this urls :
+ - http://www/.lakka.tv/
+ - http://www.lakka.tv/doc/home
+```
 
 ### Installing
 
@@ -21,7 +29,7 @@ scp -P 22 <repo_path> root@<Lakka_ip>:/storage/roms/
 
 ## Running the tests
 
-Use the following command to check the script working correcly :
+Use the following command to check the script working correctly :
 
 ```
 chmod +x LakkaTOR.bash
@@ -33,19 +41,13 @@ chmod +x LakkaTOR.bash
 * [Bash] : Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. See "https://en.wikipedia.org/wiki/Bash_(Unix_shell).
 * [Lakka] : Lakka is a lightweight Linux distribution that transforms a small computer into a full blown retrogaming console..See "http://www.lakka.tv".
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Authors
-
-* **LzOggar** - @CyberSecurity & @ComputerScience
-
-See also the following urls "http://www.lakka.tv/" and "http://www.lakka/doc/home".
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-Give me feedbacks of troubles or increase on purpose. Thanks.
+## Authors
+
+**LzOggar** - CyberSecurity student
+
+## Contributing
+You can pull request the project or suggest to me some increasement.
