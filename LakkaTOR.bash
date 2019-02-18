@@ -12,7 +12,7 @@ PLAYLISTS_PATH='/storage/playlists/'
 function usage
 {
 	echo 'Usage :'
-	echo -e '\t./LakkaTOR <cmd>'
+	echo -e '\t./LakkaTOR.bash <cmd>'
 	echo -e '\t-h, --help : use to get help.'
 	echo -e '\t--setup : use to setup the system.'
 	echo -e '\t--scan : use to automatically add games to playlists.\n'
