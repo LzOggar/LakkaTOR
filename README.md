@@ -5,7 +5,7 @@ For the moment, the script only allows zip files. All games must be compressed t
 
 ## Usage
 ```
-./LakkaTOR <cmd>
+./LakkaTOR.bash <cmd>
  -h, --help : use to get help.
  --setup : use to setup the system.
  --scan : use to automatically add games to playlists.
