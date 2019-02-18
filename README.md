@@ -1,5 +1,5 @@
 # LakkaTOR
-LakkaTOR is a command line tool to setup Lakka default architecture (aka. /storage/thumbnails, /storage/roms/downloads & /storage/playlists) and automatically import game into playlists.
+LakkaTOR is a command line tool to setup Lakka default architecture (i.e /storage/thumbnails, /storage/roms/downloads & /storage/playlists) and automatically import game into playlists.
 
 ## Usage
 ```
