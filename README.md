@@ -44,7 +44,7 @@ chmod +x LakkaTOR.bash
 ## Built With
 
 * [Bash] : Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. See "https://en.wikipedia.org/wiki/Bash_(Unix_shell).
-* [Lakka] : Lakka is a lightweight Linux distribution that transforms a small computer into a full blown retrogaming console..See "http://www.lakka.tv".
+* [Lakka] : Lakka is a lightweight Linux distribution that transforms a small computer into a full blown retrogaming console. See "http://www.lakka.tv".
 
 ## License
 
