@@ -5,7 +5,7 @@ For the moment, the script only allows zip files. All games must be compressed t
 
 ## Usage
 ```
-./LakkaTOR.bash <cmd>
+./LakkaTOR.sh <cmd>
  -h, --help : use to get help.
  --setup : use to setup the system.
  --scan : use to automatically add games to playlists.
@@ -37,8 +37,8 @@ scp -P 22 <repo_path> root@<Lakka_ip>:/storage/roms/
 Use the following command to check the script working correctly :
 
 ```
-chmod +x LakkaTOR.bash
-./LakkaTOR.bash --help
+chmod +x LakkaTOR.sh
+./LakkaTOR.sh --help
 ```
 
 ## Built With
